@@ -16,7 +16,14 @@
 	- => python3 manage.py runserver
 <kbd><img src="/imgs-readme/django_default-page_v1-1_censored.jpg" alt="django_default-page_v1-1" title="django_default-page"></img></kbd>
 
+
 ---
 ## print 'Hello Django Developer'
-	- => python3 manage.py runserver
+	- In browser, Hit localhost:8000/print_msg 
 <kbd><img src="/imgs-readme/print_Hello-Django-Developer.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+
+---
+## read content from file
+	- In browser, Hit localhost:8000/read_content_from_file
+<kbd><img src="/imgs-readme/read-content-from-file_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
