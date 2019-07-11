@@ -9,3 +9,6 @@ def print_msg(request):
 
 def read_content_from_file(request):
     return render(request, 'home.html')
+
+def read_content_from_file_param(request):
+    return render(request, 'home_param.html', {'name':'Ashish'})
