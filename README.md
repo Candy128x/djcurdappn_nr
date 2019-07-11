@@ -30,6 +30,6 @@
 
 
 ---
-## read content from file dynamic parameter
+## read content from file dynamic parameter [gif img]
 	- In browser, Hit localhost:8000/read_content_from_file_param
 <kbd><img src="/imgs-readme/read-content-from-file-dynamic-param_v1-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>
