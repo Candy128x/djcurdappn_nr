@@ -13,7 +13,7 @@
 
 
 ---
-- create project
+## create project
 - => python3 manage.py startproject proj_name
 - create files on system
 > + proj_name [dir]  
@@ -27,7 +27,7 @@
 
 
 ---
-- create application
+## create application
 - => python3 manage.py startapp app_name
 - create files on system
 > + app_name [dir]  
