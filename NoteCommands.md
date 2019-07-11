@@ -28,4 +28,7 @@
 
 ---
 - create application
-- => python3 manage.py startapplication appn_name 
+- => python3 manage.py startapp app_name
+
+
+---
