@@ -1,0 +1,5 @@
+#--GITIGNORE--
+#.gitignore
+*.bash
+.idea/
+venv/
