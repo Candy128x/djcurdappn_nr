@@ -23,12 +23,19 @@
 
 ---
 - create project
-- => python3 manage.py startproject proj_name
+- (syntax) => python3 manage.py startproject proj_name
+- => python3 manage.py startproject projtest
 
 
 ---
 - create application
-- => python3 manage.py startapp app_name
+- (syntax) => python3 manage.py startapp app_name
+- => python3 manage.py startapp calc
+- => python3 manage.py startapp webs
 
 
+---
+- make static dir/files
+- => python3 manage.py collectstatic
+- create 'assets' dir..
 ---

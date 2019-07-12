@@ -39,3 +39,9 @@
 ## Addition of number's [gif img]
 	- In browser, Hit localhost:8000/add_num
 <kbd><img src="/imgs-readme/add-num-oprn_v1-1_.gif" alt="img_alternative_txt_v1-1"></img></kbd>
+
+
+---
+## Webs index
+	- In browser, Hit localhost:8000/webs/index
+<kbd><img src="/imgs-readme/webs-index_v1-1.png" alt="img_alternative_txt_v1-1" width="50%" height="50%"></img></kbd>
