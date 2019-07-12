@@ -8,7 +8,8 @@
 
 <h1>Addition of Number's</h1>
 
-<form method="GET" action="/add_num_oprn">
+<form method="POST" action="/add_num_oprn">
+    {% csrf_token %}
     Enter 1st number: <input type="number" name="num1" autocomplete="off" required/><br>
     Enter 2st number: <input type="number" name="num2" autocomplete="off" required/><br><br>
     <input type="Submit">&nbsp

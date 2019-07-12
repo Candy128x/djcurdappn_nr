@@ -21,7 +21,7 @@ def add_num(request):
 
 
 def add_num_oprn(request):
-    val1 = request.GET["num1"]
-    val2 = request.GET["num2"]
+    val1 = request.POST["num1"]
+    val2 = request.POST["num2"]
     addn = int(val1) + int(val2)
     return render(request, 'add_num.html', {'result': addn})
