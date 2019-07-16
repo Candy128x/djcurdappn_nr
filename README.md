@@ -45,3 +45,15 @@
 ## Webs index
 	- In browser, Hit localhost:8000/webs/index
 <kbd><img src="/imgs-readme/webs-index_v1-1.png" alt="img_alternative_txt_v1-1" width="50%" height="50%"></img></kbd>
+
+
+---
+## admin feature
+	- In browser, Hit localhost:8000/admin
+<kbd><img src="/imgs-readme/admin_v1-1.png" alt="img_alternative_txt_v1-1" width="50%" height="50%"></img></kbd>
+
+
+---
+## Add model in admin dashboard
+	- In browser, Hit localhost:8000/admin
+<kbd><img src="/imgs-readme/admin-webs_v1-1.png" alt="img_alternative_txt_v1-1" width="50%" height="50%"></img></kbd>
