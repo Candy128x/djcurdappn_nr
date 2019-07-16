@@ -181,3 +181,5 @@ Running migrations:
   Applying webs.0003_auto_20190716_0527... OK
 ```
 
+---
+- => ashish@ashish-Vostro-3478:projtest$ python3 manage.py startapp accounts
