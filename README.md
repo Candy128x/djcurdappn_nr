@@ -50,10 +50,28 @@
 ---
 ## admin feature
 	- In browser, Hit localhost:8000/admin
-<kbd><img src="/imgs-readme/admin_v1-1.png" alt="img_alternative_txt_v1-1" width="50%" height="50%"></img></kbd>
+<kbd><img src="/imgs-readme/admin_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
 
 
 ---
 ## Add model in admin dashboard
 	- In browser, Hit localhost:8000/admin
-<kbd><img src="/imgs-readme/admin-webs_v1-1.png" alt="img_alternative_txt_v1-1" width="50%" height="50%"></img></kbd>
+<kbd><img src="/imgs-readme/admin-webs_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+
+---
+## Add webs -> destination
+	- In browser, Hit localhost:8000/admin
+<kbd><img src="/imgs-readme/webs-destination-add_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
+
+
+---
+## Add data in database [gif img]
+	- In browser, Hit localhost:8000/admin/webs/destination/add/
+<kbd><img src="/imgs-readme/add-data-to-db_v1-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>
+
+
+---
+## Fetch data in database
+	- In browser, Hit localhost:8000/webs/index
+<kbd><img src="/imgs-readme/fetch-data-from-db_v1-1.png" alt="img_alternative_txt_v1-1" width="50%" height="50%"></img></kbd>

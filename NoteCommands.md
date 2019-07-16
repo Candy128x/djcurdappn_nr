@@ -165,3 +165,19 @@ Bypass password validation and create user anyway? [y/N]: y
 Superuser created successfully.
 ```
 
+
+---
+```
+ashish@ashish-Vostro-3478:projtest$ python3 manage.py makemigrations
+Migrations for 'webs':
+  webs/migrations/0003_auto_20190716_0527.py
+    - Alter field img on destination
+
+
+ashish@ashish-Vostro-3478:projtest$ python3 manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions, webs
+Running migrations:
+  Applying webs.0003_auto_20190716_0527... OK
+```
+

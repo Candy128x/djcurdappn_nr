@@ -16,6 +16,22 @@
 <link rel="stylesheet" type="text/css" href="{% static 'webs/plugins/OwlCarousel2-2.2.1/animate.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'webs/styles/main_styles.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'webs/styles/responsive.css' %}">
+
+
+<style>
+.destImg {
+	width: 690px;
+	height: 345px;
+}
+
+. destDesc {
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+</style>
 </head>
 <body>
 
@@ -254,7 +270,8 @@
 						{% for dest in datasets %}
 						<div class="destination item">
 							<div class="destination_image">
-								<img src="{{ baseURL }}/{{ dest.img }}" alt="">
+<!--								<img src="{{ baseURL }}/{{ dest.img }}" alt="">-->
+								<img src="{{ dest.img.url }}" class="destImg" alt="">
 
 								{% if dest.offer %}
 								<div class="spec_offer text-center"><a href="#">Special Offer</a></div>
@@ -263,7 +280,7 @@
 							</div>
 							<div class="destination_content">
 								<div class="destination_title"><a href="destinations.html">{{ dest.name }}</a></div>
-								<div class="destination_subtitle"><p>{{ dest.desc }}</p></div>
+								<div class="destination_subtitle destDesc"><p>{{ dest.desc }}</p></div>
 								<div class="destination_price">From ${{ dest.price }}</div>
 							</div>
 						</div>
