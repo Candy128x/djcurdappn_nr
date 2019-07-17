@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib import messages
 from .models import Destination
 
 
@@ -30,8 +31,16 @@ def index(request):
     # # create lists
     # dests = [dest1, dest2, dest3]
 
-
     # fetch value from database
     dests = Destination.objects.all()
 
     return render(request, 'index.html', {'datasets': dests, 'eMailId': 'test@g.com'})
+
+
+# Discount page
+def discount(request):
+    if request.user.is_authenticated:
+        return redirect("/webs/index")
+    else:
+        messages.info(request, 'Login first..!')
+        return redirect('/accounts/login')

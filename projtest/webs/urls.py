@@ -5,4 +5,5 @@ from . import views
 urlpatterns = [
     # path('index', scv.index, name='index'),
     path('index', views.index, name='index'),
+    path('discount', views.discount, name='discount'),
 ]
