@@ -98,5 +98,6 @@
 ---
 ## Access Discount page without log-in [gif img]
 	- In browser, Hit localhost:8000/webs/index
+	- Click on Big Discount link
 <kbd><img src="/imgs-readme/login-first_v1-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>
 
