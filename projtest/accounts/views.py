@@ -15,7 +15,7 @@ def register(request):
         password2 = request.POST['password2']
 
         # Validate user entered password correct or not
-        if password1 == password2:
+        if password1 != password2:
             # print('Password not matching..!')
             messages.info(request, 'Password not matching..!')
             return redirect('register')
@@ -66,3 +66,7 @@ def login(request):
         return render(request, 'login.html')
 
 
+# Log-out feature
+def logout(request):
+    auth.logout(request)
+    return redirect('login')
