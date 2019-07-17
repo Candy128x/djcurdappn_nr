@@ -88,3 +88,9 @@
 	- In browser, Hit localhost:8000/accounts/login
 <kbd><img src="/imgs-readme/login_v1-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>
 
+
+---
+## Login Logout & view user namae feature [gif img]
+	- In browser, Hit localhost:8000/webs/index
+<kbd><img src="/imgs-readme/login-logout-username_v1-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>
+
