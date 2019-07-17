@@ -39,7 +39,30 @@ def register(request):
             user.save()
             print('User Created')
 
-        return redirect('/accounts/register')
+        # return redirect('/accounts/register')
+        return redirect('login')
 
     else:
         return render(request, 'register.html')
+
+
+# Log-in feature
+def login(request):
+    if request.method == 'POST':
+        user_name = request.POST['username']
+        password = request.POST['password']
+
+        user = auth.authenticate(username=user_name, password=password)
+
+        if user is not None:
+            # Give login access to the user
+            auth.login(request, user)
+            return redirect("/webs/index")
+        else:
+            messages.error(request, 'Invalid login credential!')
+            return redirect('login')
+
+    else:
+        return render(request, 'login.html')
+
+

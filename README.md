@@ -82,3 +82,9 @@
 	- In browser, Hit localhost:8000/accounts/register
 <kbd><img src="/imgs-readme/passing-messages_v1-1.png" alt="img_alternative_txt_v1-1"></img></kbd>
 
+
+---
+## Login feature
+	- In browser, Hit localhost:8000/accounts/login
+<kbd><img src="/imgs-readme/login_v1-1.gif" alt="img_alternative_txt_v1-1"></img></kbd>
+
