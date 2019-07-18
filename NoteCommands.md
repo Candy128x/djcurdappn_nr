@@ -23,8 +23,8 @@
 
 ---
 - create project
-- (syntax) => python3 manage.py startproject proj_name
-- => python3 manage.py startproject projtest
+- (syntax) => django-admin startproject proj_name
+- => django-admin startproject projtest
 
 
 ---
