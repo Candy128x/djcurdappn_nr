@@ -25,3 +25,13 @@ def add_num_oprn(request):
     val2 = request.POST["num2"]
     addn = int(val1) + int(val2)
     return render(request, 'add_num.html', {'result': addn})
+
+
+def subtract(request, num1=0, num2=0):
+    result = num1-num2
+    return render(request, 'add_num.html', {'result': result})
+
+
+def mode(request, num1=0, num2=0):
+    result = int(num1)%int(num2)
+    return render(request, 'add_num.html', {'result': result})
